@@ -72,7 +72,7 @@ def fetch_remaining_columns(section_numbers):
 # Flask routes
 @app.route('/')
 def home():
-    return render_template('front end demo 2.html')
+    return render_template('index.html')
 
 @app.route('/get_relevant_sections', methods=['POST'])
 def get_sections():
